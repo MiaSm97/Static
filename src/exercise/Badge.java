@@ -16,7 +16,7 @@ public class Badge {
         return "*" + employee.name + employee.surname + "*";
     }
     public void showBadgeDetails(){
-        System.out.println(getEmployee().getEmployeeDetails());
+        System.out.println(employee.getEmployeeDetails());
         System.out.println("Badge ID: " + generateBadgeIdCode());
         System.out.println("Number of employees: " + totalNumberOfEmployees);
     }
